@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="E-Cart.API/E-Cart.API.csproj" />
+  <Project Path="E-Cart.Application/E-Cart.Application.csproj" />
+  <Project Path="E-Cart.Domain/E-Cart.Domain.csproj" />
+  <Project Path="E-Cart.Infrastructure/E-Cart.Infrastructure.csproj" />
+</Solution>
