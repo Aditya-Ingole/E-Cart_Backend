@@ -64,6 +64,8 @@ builder.Services.AddDatabaseConfiguration(builder.Configuration);
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<IWishlistService, WishlistService>();
 
 // We need to register the DbContext as a plain DbContext for the Application layer.
 // The Application layer doesn't know about ApplicationDbContext (Clean Architecture!).
